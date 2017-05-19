@@ -40,7 +40,7 @@ ActiveRecord::Schema.define(version: 20170519014719) do
     t.integer  "order_id"
     t.string   "product_name"
     t.integer  "product_price"
-    t.integer  "quantityrake"
+    t.integer  "quantity"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
   end
